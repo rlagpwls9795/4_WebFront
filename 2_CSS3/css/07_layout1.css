@@ -1,0 +1,100 @@
+.area1{background-color: red;}
+.area2{background-color: orange;}
+.area3{background-color: yellow;}
+.area4{background-color: green;}
+.area5{background-color: blue;}
+
+.block{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    color: white;
+    display: block; /* 요소의 형식을 block으로 변경 */
+}
+
+.inline{
+    display: inline; /* 요소의 형식을 inline으로 변경 */
+}
+
+.inline-block{
+    display: inline-block; /* 요소의 형식을 inline-block으로 변경 */
+}
+
+/* 상하 2분할 */
+#container-1{
+    border: 3px solid black;
+    width: 350px;
+    height: 450px;
+}
+/* 내부 영역 분할 1번 요소 */
+#container-1>div:first-child{
+    background-color: aqua;
+    height: 30%;
+    /* % : 브라우저 또는 감싸는 영역의 크기에 비례해서 크기를 지정(자동 계산) */
+}
+/* 내부 영역 분할 2번 요소 */
+#container-1>div:last-child{
+    background-color: yellow;
+    /* height: 70%; */
+
+    /* calc() */
+    height: calc(450px*0.7);
+}
+
+/* 상하 3분할 */
+#container-2{
+    border: 3px solid black;
+    width: 300px;
+    height: 440px;
+}
+#container-2>div:first-child{
+    background-color: lightgreen;
+    height: 15%;
+}
+#container-2>div:nth-child(2){
+    background-color: green;
+    height: 35%;
+}
+#container-2>div:last-child{
+    background-color: darkgreen;
+    height: 50%;
+}
+
+/* 좌우 2분할 */
+#container-3{
+    border: 5px solid red;
+    width: 400px;
+    height: 200px;
+}
+#container-3>div{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+#container-3 .area1{
+    background-color: dodgerblue;
+}
+#container-3 .area2{
+    background-color: skyblue;
+}
+
+/* display : none: /visibility : hidden */
+.test4{
+    border: 1px solid black;
+    width: 50px;    
+    height: 50px;
+}
+.none{
+    /* 요소가 표시되지 않으나 존재는 하고 있는 상태 */
+    display: none;
+}
+.hidden{
+    /* 요소를 투명한 상태로 표시 */
+    visibility: hidden;
+}
+
+
+
+
+
+
