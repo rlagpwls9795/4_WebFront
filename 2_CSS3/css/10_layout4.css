@@ -66,8 +66,8 @@
     1) 감싸는 요소가 position : relative
     2) 배치될 요소가 position : absolute 
     3) 배치될 요소를 사방으로 잡아 당김(top, bottom, left, right)
-    4) 배치될 요소에 margin을 auto로 설정해
-       감싸는 요소와의 간격을
+    4) 배치될 요소에 margin : auto; 를 추가해
+       감싸는 요소와의 간격을 자동으로 조정 -> 가운데 배치
     
 */
 #center{
