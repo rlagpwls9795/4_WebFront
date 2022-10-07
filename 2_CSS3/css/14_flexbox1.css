@@ -106,7 +106,7 @@
     /* align-items: center; */
 
     /* baseline : item 내부에 있는 content가 모두 한 줄에 배치될 수 있도록
-                  각각의 item에을 cross-axis 방향으로 움직이는 속성 */
+                  각각의 item을 cross-axis 방향으로 움직이는 속성 */
     align-items: baseline;
 
 }
