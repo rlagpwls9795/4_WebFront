@@ -33,7 +33,7 @@ div{
     background-color: yellow;
     float: right;
     /* 요소를 띄워서 오른쪽 정렬 
-        (중요) HTML에 먼저 작성된 요솔ㄹ 먼저 정렬시킨다 */
+        (중요) HTML에 먼저 작성된 요소를 먼저 정렬시킨다 */
 }
 
 /* 좌우 2분할 */
