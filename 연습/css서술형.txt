@@ -192,7 +192,7 @@ FlexBox : 요소의 정렬되는 방향, 순서, 요소 간의 간격을 개발�
 HTML 코드에 <link rel="stylesheet" href="css 파일 경로"> 작성하면 css 사용 가능
 
 - :hover{ transition-duration: 초(s);} ==> 스타일이 변하는 시간
-- cals() : 계산함수
+- calc() : 계산함수
 - {visibility : hidden;} ==> 요소를 투명한 상태로 표시
 - vh(Viewport Height) : 화면의 높이
 
